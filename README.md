@@ -2,7 +2,7 @@
 
 ## Usage
 
-This does not come with any assets, you are on your own on that but if you manage to get them, place the files in the "Client" folder.
+This does not come with any assets, you are on your own with that but if you manage to get them, place the files in the "Client" folder.
 
 Open up index.js located in the "Server" folder and there are a few variables to modify.
 ip - IP address used to connect to the server.
