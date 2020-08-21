@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 
 const ip = "localhost";
 const port = 3000;
-const GameName = "ben10gc";
+const GameName = "";
 
 function chunkArray(arr, size) {
   var myArray = [];
