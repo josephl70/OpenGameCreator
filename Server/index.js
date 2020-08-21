@@ -9,7 +9,6 @@ var bodyParser = require('body-parser');
 const ip = "localhost";
 const port = 3000;
 const GameName = "";
-const GameStringID = 0;
 
 function chunkArray(arr, size) {
   var myArray = [];
@@ -91,19 +90,7 @@ app.get('/game-creator-list/featured/' + GameName + '/:page', function(req, res,
 app.post('/game-creator/' + GameName, function(req, res, next) {
   if(req.body["requestType"] === "saveGame")
   {
-      var NameArray = [];
-      switch(GameStringID)
-      {
-        case 0:
-          NameArray = fs.readFileSync('gamecreator/BGC_Names.txt', 'utf8').split('\n');
-        break;
-        case 2:
-          NameArray = fs.readFileSync('gamecreator/AGC_Names.txt', 'utf8').split('\n');
-        break;
-        case 3:
-          NameArray = fs.readFileSync('gamecreator/BMGC_Names.txt', 'utf8').split('\n');
-        break;
-      }
+      var NameArray = fs.readFileSync('gamecreator/stringNames.txt', 'utf8').split('\n');
       var UniqueIDString = req.body["goal-id"] + req.body["hero-id"] + req.body["game-name"];
       UniqueIDString.replace(",", "");
       var CryptoID = crypto.createHash('sha1').update(UniqueIDString).digest('hex');
