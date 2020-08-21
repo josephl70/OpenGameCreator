@@ -1,3 +1,7 @@
+Server/gamecreator/json_levels/*
+Server/gamecreator/thumbnails/*
+Server/gamecreator/xml_levels/*
+
 # Logs
 logs
 *.log
@@ -102,7 +106,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-Server/gamecreator/json_levels/*
-Server/gamecreator/thumbnails/*
-Server/gamecreator/xml_levels/*
