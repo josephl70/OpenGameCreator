@@ -1,4 +1,5 @@
 <root>
 <servicePath><![CDATA[http://localhost:3000]]></servicePath>
-<staticPath><![CDATA[http://localhost:3000/gamecreator/levels/]]></staticPath>
+<staticPath><![CDATA[http://localhost:3000/gamecreator/cache_storage/]]></staticPath>
+<authPath><![CDATA[http://localhost:3000/authToken]]></authPath>
 </root>
