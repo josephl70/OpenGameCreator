@@ -1,0 +1,4 @@
+<root>
+<servicePath><![CDATA[http://localhost:3000]]></servicePath>
+<staticPath><![CDATA[http://localhost:3000/gamecreator/levels/]]></staticPath>
+</root>
