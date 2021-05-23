@@ -15,6 +15,8 @@ Once all of this is done, load index.js in Node.Js by calling the command "node 
 Finally, host the "Client" folder on a webserver of your choosing and go to index.html to play the game creator.
 
 If you want the levels to save names, you must put the list of string names in "Server/gamecreator_GAMENAME/stringNames.txt"
+This supports multiple game creator folders, just create a new folder named gamecreator_GAMENAME in the server folder and switch
+the game name to change to that specific folder.
 
 If levels are not saving, create the following folders in "Server/gamecreator_GAMENAME":<br />
 "json_levels"<br />
