@@ -16,7 +16,7 @@ Finally, host the "Client" folder on a webserver of your choosing and go to inde
 
 If you want the levels to save names, you must put the list of string names in "Server/gamecreator_GAMENAME/stringNames.txt"<br/>
 This supports multiple game creator folders, just create a new folder named gamecreator_GAMENAME in the server folder and switch
-the game name to change to that specific folder.
+the GameName variable to change to that specific folder.
 
 If levels are not saving, create the following folders in "Server/gamecreator_GAMENAME":<br />
 "json_levels"<br />
