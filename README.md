@@ -14,9 +14,9 @@ If you modify the ip variable, the variables located in "Client/tools/xml/config
 Once all of this is done, load index.js in Node.Js by calling the command "node Server/index.js".
 Finally, host the "Client" folder on a webserver of your choosing and go to index.html to play the game creator.
 
-If you want the levels to save names, you must put the list of string names in "Server/gamecreator/stringNames.txt"
+If you want the levels to save names, you must put the list of string names in "Server/gamecreator_GAMENAME/stringNames.txt"
 
-If levels are not saving, create the following folders in "Server/gamecreator":<br />
+If levels are not saving, create the following folders in "Server/gamecreator_GAMENAME":<br />
 "json_levels"<br />
 "thumbnails"<br />
 "xml_levels"<br />
