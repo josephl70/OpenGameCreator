@@ -1,7 +1,3 @@
-Server/gamecreator/json_levels/*
-Server/gamecreator/thumbnails/*
-Server/gamecreator/xml_levels/*
-
 # Logs
 logs
 *.log
